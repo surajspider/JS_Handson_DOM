@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question7</title>
+    <style>
+        .childbut{
+            margin:auto;
+            width:fit-content;
+        }
+        .main{
+            display: flex;
+            /* border:2px solid black; */
+            width:fit-content;
+            padding:20px;
+            justify-content: center;
+            margin:auto;
+        }
+        .box{
+            width:200px;
+            height:200px;
+            margin:5px;
+            border:2px solid red;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1 style="text-align: center;">Flex property</h1>
+        <div class="main">
+            <div class="box1 box">card 1</div>
+            <div class="box2 box">card 2</div>
+            <div class="box3 box">card 3</div>
+        </div>
+        <div class="childbut">
+            <button id="button" onclick="access()">Change flex direction</button>
+        </div>
+        
+    </div>
+    <script src="./q7script.js"></script>
+</body>
+</html>

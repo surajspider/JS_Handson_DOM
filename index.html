@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson - DOM - JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div></div>
+    <h1 style="text-decoration: underline; text-align: center;">Javascript - Handson - DOM</h1><hr><br>
+    <h2>Q1. Write the code to access element which is having id as "text"</h2>
+    <h3><span class="ans">Answer:</span>&emsp;The code to access element is,
+    <em style="background-color: aquamarine;">document.getElementById("text");</em>&emsp; <a target="_blank" href="./q1/q1.html">Click Here for implementation</a></h3>
+    <br><hr>
+    <h2>Q2. Write the code to access element which is having tag as "h1"</h2>
+    <h3><span class="ans">Answer:</span>&emsp;The code to access element is,
+        <em style="background-color: aquamarine;">document.getElementsByTagName("h1")[indexnumber];</em>&emsp; <a target="_blank" href="./q2/q2.html">Click Here for implementation</a>
+    </h3>
+    <b>Basically, getElementsByTagName returns a HTML Collection which is in the form of array. So, if u need
+    to access the elements, you need to specify the index number to access them.</b>
+    <br><br><hr>
+    <h2>Q3. Write the code to access element which is having class as "box"</h2>
+    <h3><span class="ans">Answer:</span>&emsp;The code to access element is,
+        <em style="background-color: aquamarine;">document.getElementsByClassName("box")[indexnumber];</em>&emsp; <a target="_blank" href="./q3/q3.html">Click Here for implementation</a>
+    </h3>
+    <b style="font-size: large;">Here, getElementsByClassName returns a HTML Collection which is in the form of an array. Specifying the index number is must to access the element since, many elements can have same class names.
+    This can also be done using Query selector also.But, query selector always returns the first element that matches.
+    </b><span><h3><em style="background-color: aquamarine;">document.querySelector(".box");</em></h3></span>
+    <br><hr>
+    <h2>Q4. "Hello". Change the heading from "Hello" to "Hello World" using DOM functions</h2>
+    <h3><span class="ans">Answer:</span>&emsp;This can be implemented by many ways. Now, we are using 
+        <em style="background-color: aquamarine;">document.getElementById("id1");</em>&emsp; <a target="_blank" href="./q4/q4.html">Click Here for implementation</a>
+    </h3>
+    <hr>
+    <h2>Q5. Create an HTML page having content as Hello world and a button named Replace Text. When user will click
+         on this button page content should be changed to "Welcome to Elevation academy"</h2>
+    <h3><span class="ans">Answer:</span>&emsp;<a target="_blank" href="./q5/q5.html">Click Here for implementation</a></h3>
+    <hr>
+    <h2>Q6. h1tag - Hello - h1tag. Add one style attribute and give text color as red and id attribute and give the id value as "heading" in the above given h1 tag using DOM functions</h2>
+    <h3><span class="ans">Answer:</span>&emsp;<a target="_blank" href="./q6/q6.html">Click Here for implementation</a></h3>
+    <hr>
+    <h2>Q7. Create three cards on HTML page and arrange them using flex property in 
+        row or horizontal direction and also create button at the bottom named "Change 
+        Flex direction". When user clicks on this button, the cards arrangement should 
+        be changed to vertical direction.
+    </h2>
+    <h3><span class="ans">Answer:</span>&emsp;<a target="_blank" href="./q7/q7.html">Click Here for implementation</a></h3>
+    <hr>
+    <h2>Q8. What’s the difference between window vs document?</h2>
+    <h3><span class="ans">Answer:</span>&emsp;
+        <table>
+            <tr>
+                <th>Window</th>
+                <th>Document</th>
+            </tr>
+            <tr>
+                <td>It is the first thing that gets loaded into the browser</td>
+                <td>Document gets loaded inside a window</td>
+            </tr>
+            <tr>
+                <td>Properties related to window are stored inside window object. Some 
+                    of the properties are length, innerWidth, innerHeight, caches,etc.,
+                </td>
+                <td>Properties related to document are stored inside document object. Some
+                    of the properties are title, URL, Cookie,etc.,
+                </td>
+            </tr>
+            <tr>
+                <td>We can access document object properties inside the window</td>
+                <td>We cannot access window object properties inside the document</td>
+            </tr>
+            <tr>
+                <td>Example: window.document.title will return the title of the document</td>
+                <td>Example: document.title will return the title of the document</td>
+            </tr>
+        </table><br><br>
+        <hr>
+    <h2>Q9. Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+    <h3><span class="ans">Answer:</span>&emsp;<a target="_blank" href="./q9/q9.html">Click Here for implementation</a></h3>   
+    <hr>
+    <h2>Q10. Guess the number Host link: </h2>
+    <h3><span class="ans">Answer:</span>&emsp;<a target="_blank" href="https://surajspider.github.io/Guessmynumber/">Click Here for implementation</a></h3>
+</body>
+</html>
